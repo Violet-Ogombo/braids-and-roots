@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     appendMessage('Bot', 'Thinking...');
 
     try {
-      const response = await fetch('http://localhost:8888/.netlify/functions/chatbot', {
+      const response = await fetch('/.netlify/functions/chatbot', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
