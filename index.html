@@ -92,6 +92,15 @@
     </div>
   </section>
 
+  <!-- Chatbot Container -->
+<div id="chatbot" class="fixed bottom-6 right-6 bg-white border border-gray-300 rounded-xl shadow-lg w-72 max-h-[400px] flex flex-col overflow-hidden z-50">
+  <div class="bg-pink-600 text-white p-3 font-semibold">Ask Braids & Roots 💬</div>
+  <div id="chat-messages" class="flex-1 p-3 overflow-y-auto text-sm"></div>
+  <form id="chat-form" class="flex border-t border-gray-200">
+    <input type="text" id="chat-input" placeholder="Ask a question..." class="flex-1 px-3 py-2 text-sm focus:outline-none">
+    <button type="submit" class="px-4 bg-pink-500 text-white">Send</button>
+  </form>
+</div>
 
   <!-- Footer -->
   <footer class="bg-pink-200 py-4 text-center text-sm text-gray-700">
